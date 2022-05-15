@@ -866,7 +866,7 @@ a:focus {
           transition: all 300ms linear;
 }
 .navbar .side-menu-button.actives .fa:hover {
-  color: #004AAD;
+  color: #68C269;
 }
 .navbar .sidenav {
   height: 100%;
@@ -908,7 +908,7 @@ a:focus {
   text-align: center;
 }
 .navbar .sidenav ul li a {
-  color: #004AAD;
+  color: #68C269;
   font-size: 42px;
   padding: 8px;
   text-align: center;
