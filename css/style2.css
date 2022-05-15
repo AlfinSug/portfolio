@@ -34,7 +34,7 @@
 body {
   -webkit-transition: linear 0s;
           transition: linear 0s;
-  color: #202125;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   width: 100%;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0;
   line-height: normal;
-  color: #202125;
+  color: #000000;
   -webkit-transition: all 400ms linear;
           transition: all 400ms linear;
 }
@@ -95,7 +95,7 @@ h4 {
 h5 {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  color: #A2A7BC;
+  color: #004AAD;
   text-transform: uppercase;
 }
 
@@ -211,7 +211,7 @@ a:focus {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  color: #A2A7BC;
+  color: #004AAD;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   word-spacing: 8px;
@@ -296,7 +296,7 @@ a:focus {
   line-height: 24px;
 }
 .blog-section a {
-  color: #A2A7BC;
+  color: #004AAD;
   font-size: 12px;
   font-family: "Raleway", sans-serif;
   display: inline-block;
@@ -306,7 +306,7 @@ a:focus {
           transition: all 400ms linear;
 }
 .blog-section a:hover {
-  color: #202125;
+  color: #000000;
 }
 .blog-section .user {
   margin-top: 30px;
@@ -623,7 +623,7 @@ a:focus {
 /* pricing table font */
 /* vertical heading */
 .vertical-heading span {
-  color: #A2A7BC;
+  color: #004AAD;
 }
 
 .topbar {
@@ -692,14 +692,14 @@ a:focus {
   }
 }
 .navbar.shrink .nav li a {
-  color: #202125;
+  color: #000000;
 }
 .navbar.shrink .nav li a:focus {
   background: transparent;
-  color: #202125;
+  color: #000000;
 }
 .navbar.shrink .nav li a:hover {
-  color: #A2A7BC;
+  color: #004AAD;
 }
 .navbar .navbar-nav {
   margin-right: 5px;
@@ -766,11 +766,11 @@ a:focus {
 }
 @media screen and (max-width: 767px) {
   .navbar .nav li a:hover, .navbar .nav li a:focus {
-    color: #202125;
+    color: #000000;
   }
 }
 .navbar .nav li a:hover {
-  color: #A2A7BC;
+  color: #004AAD;
 }
 .navbar .nav li a:before {
   position: absolute;
@@ -778,7 +778,7 @@ a:focus {
   width: 100%;
   display: table;
   height: 4px;
-  background: #A2A7BC;
+  background: #004AAD;
   bottom: -5px;
   -webkit-transition: all 300ms linear;
           transition: all 300ms linear;
@@ -824,13 +824,13 @@ a:focus {
     padding: 4px 0;
   }
   .navbar .nav li a {
-    color: #202125;
+    color: #000000;
   }
 }
 .navbar .side-menu-button {
   position: relative;
   cursor: pointer;
-  background-color: #A2A7BC;
+  background-color: #004AAD;
   padding: 7px 14px;
   border-radius: 4px;
   color: #ffffff;
@@ -854,19 +854,19 @@ a:focus {
 }
 .navbar .side-menu-button:hover {
   color: #ffffff;
-  background: #202125;
+  background: #000000;
 }
 .navbar .side-menu-button.actives {
   background: transparent;
 }
 .navbar .side-menu-button.actives .fa {
-  color: #A2A7BC;
+  color: #004AAD;
   font-size: 36px;
   -webkit-transition: all 300ms linear;
           transition: all 300ms linear;
 }
 .navbar .side-menu-button.actives .fa:hover {
-  color: #6a6a6a;
+  color: #004AAD;
 }
 .navbar .sidenav {
   height: 100%;
@@ -908,7 +908,7 @@ a:focus {
   text-align: center;
 }
 .navbar .sidenav ul li a {
-  color: #6a6a6a;
+  color: #004AAD;
   font-size: 42px;
   padding: 8px;
   text-align: center;
@@ -932,7 +932,7 @@ a:focus {
   }
 }
 .navbar .sidenav ul > li.active a {
-  color: #A2A7BC;
+  color: #004AAD;
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
@@ -980,7 +980,7 @@ a:focus {
   font-weight: 100;
 }
 .white_t.t_115 .color {
-  color: #A2A7BC;
+  color: #004AAD;
   font-weight: 400;
 }
 
@@ -1015,7 +1015,7 @@ a:focus {
   background: #ffffff;
 }
 #revo_slider .tp-bullets .tp-bullet.selected {
-  background: #A2A7BC;
+  background: #004AAD;
   position: static;
   display: inline-block;
   margin-left: 4px;
@@ -1031,7 +1031,7 @@ a.white:hover, a.white:focus, a.white:active {
   border-color: transparent !important;
 }
 a.white:before {
-  background: #A2A7BC;
+  background: #004AAD;
 }
 @media screen and (max-width: 767px) {
   a.white {
@@ -1105,7 +1105,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
 #about-us #about-us-1 .section hr {
   width: 45px;
   height: 3px;
-  background: #A2A7BC;
+  background: #004AAD;
   margin: 0 0 12px;
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
@@ -1158,7 +1158,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   color: #ffffff;
 }
 #about-us #about-us-2 .section h2 {
-  color: #A2A7BC;
+  color: #004AAD;
   margin-bottom: 6px;
 }
 @media screen and (max-width: 992px) {
@@ -1167,10 +1167,10 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   }
 }
 #about-us #about-us-2 .section:hover {
-  background: #A2A7BC;
+  background: #004AAD;
 }
 #about-us #about-us-2 .section:hover h2 {
-  color: #202125;
+  color: #000000;
   -webkit-transform: translateY(-20px);
       -ms-transform: translateY(-20px);
           transform: translateY(-20px);
@@ -1236,7 +1236,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   top: 30px;
 }
 #about-us #about-us-3 .hovereffect .overlay .info h6 {
-  color: #A2A7BC;
+  color: #004AAD;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
@@ -1262,7 +1262,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   overflow: visible;
 }
 #about-us #about-us-3 .bottom-section .progress .progress-bar {
-  background: #A2A7BC;
+  background: #004AAD;
   position: relative;
   -webkit-transition: 0.2s;
           transition: 0.2s;
@@ -1361,7 +1361,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   font-size: 13px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  color: #202125;
+  color: #000000;
   padding: 0;
 }
 #services #service-1 #responsiveTabsDemo .r-tabs-accordion-title {
@@ -1369,11 +1369,11 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   margin-bottom: 10px;
 }
 #services #service-1 #responsiveTabsDemo .r-tabs-state-active a {
-  border-bottom: 3px solid #A2A7BC;
+  border-bottom: 3px solid #004AAD;
   -webkit-transition: border-color 300ms linear;
           transition: border-color 300ms linear;
   padding-bottom: 5px;
-  color: #A2A7BC;
+  color: #004AAD;
 }
 #services #service-1 #responsiveTabsDemo h2 {
   font-size: 48px;
@@ -1423,11 +1423,11 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   }
 }
 #services #service-1 #responsiveTabsDemo .button {
-  background: #A2A7BC;
+  background: #004AAD;
   color: #ffffff;
 }
 #services #service-1 #responsiveTabsDemo .button:before {
-  background: #202125;
+  background: #000000;
 }
 @media screen and (max-width: 767px) {
   #services #service-2 .section {
@@ -1459,13 +1459,13 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   }
 }
 #services #service-2 .section .feature:hover h5 {
-  color: #202125;
+  color: #000000;
 }
 #services #service-2 .section .feature:hover .icon {
   -webkit-transform: translateX(-20px);
       -ms-transform: translateX(-20px);
           transform: translateX(-20px);
-  color: #A2A7BC;
+  color: #004AAD;
 }
 #services #service-3 {
   background: url("../images/cover8.jpg") no-repeat fixed center;
@@ -1481,7 +1481,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
 }
 #services #service-3 p {
   font-family: "Raleway", sans-serif;
-  color: #A2A7BC;
+  color: #004AAD;
   margin-top: 8px;
 }
 
@@ -1522,8 +1522,8 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   }
 }
 #portfolio #portfolio1 .list button.active span {
-  border-bottom: 3px solid #A2A7BC;
-  color: #A2A7BC;
+  border-bottom: 3px solid #004AAD;
+  color: #004AAD;
 }
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .list {
@@ -1602,7 +1602,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   color: #ffffff;
 }
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text h4 {
-  color: #A2A7BC;
+  color: #004AAD;
   font-size: 20px;
 }
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text p {
@@ -1643,7 +1643,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   min-height: 128px;
 }
 #portfolio #portfolio1 .block-container .load-more .btn-div .button {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
   position: absolute;
   right: 15px;
@@ -1653,7 +1653,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
           transform: translateY(-50%);
 }
 #portfolio #portfolio1 .block-container .load-more .btn-div .button:before {
-  background: #A2A7BC;
+  background: #004AAD;
 }
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .block-container .load-more .btn-div {
@@ -1676,7 +1676,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
 }
 #portfolio #portfolio2 #client-slider .item {
   padding: 50px;
-  background: #A2A7BC;
+  background: #004AAD;
   color: #ffffff;
 }
 #portfolio #portfolio2 #client-slider .item .row {
@@ -1752,7 +1752,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   padding: 32px 21px;
 }
 #portfolio #portfolio3 .pricing-table h4 {
-  color: #A2A7BC;
+  color: #004AAD;
   font-family: "Raleway", sans-serif;
   margin-bottom: 25px;
 }
@@ -1808,14 +1808,14 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   color: #62be10;
 }
 #portfolio #portfolio3 .pricing-table .button {
-  background: #A2A7BC;
+  background: #004AAD;
   color: #ffffff;
 }
 #portfolio #portfolio3 .pricing-table .button:before {
-  background: #202125;
+  background: #000000;
 }
 #portfolio #portfolio3 .pricing-table.black {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
   border-color: transparent;
 }
@@ -1827,10 +1827,10 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
 }
 #portfolio #portfolio3 .pricing-table.black .button {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
 }
 #portfolio #portfolio3 .pricing-table.black .button:before {
-  background: #A2A7BC;
+  background: #004AAD;
 }
 #portfolio #portfolio3 .pricing-table.black .button:hover, #portfolio #portfolio3 .pricing-table.black .button:focus, #portfolio #portfolio3 .pricing-table.black .button:active {
   color: #ffffff;
@@ -1841,18 +1841,18 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   }
 }
 #portfolio #portfolio3 .pricing-table.black:hover .button:before {
-  background: #202125;
+  background: #000000;
 }
 #portfolio #portfolio3 .pricing-table:hover {
   color: #ffffff;
-  background: #A2A7BC;
+  background: #004AAD;
 }
 #portfolio #portfolio3 .pricing-table:hover h2, #portfolio #portfolio3 .pricing-table:hover h4, #portfolio #portfolio3 .pricing-table:hover h2 > span, #portfolio #portfolio3 .pricing-table:hover p, #portfolio #portfolio3 .pricing-table:hover ul li > i, #portfolio #portfolio3 .pricing-table:hover h2 > .month {
   color: #ffffff;
 }
 #portfolio #portfolio3 .pricing-table:hover .button {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
 }
 #portfolio #portfolio3 .pricing-table:hover .button:hover {
   color: #ffffff;
@@ -1877,11 +1877,11 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
 }
 #news #news-1 .left-section .button {
   margin-top: 25px;
-  background: #A2A7BC;
+  background: #004AAD;
   color: #ffffff;
 }
 #news #news-1 .left-section .button:before {
-  background: #202125;
+  background: #000000;
 }
 @media screen and (max-width: 767px) {
   #news #news-1 .left-section {
@@ -2019,7 +2019,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   background: #ffffff;
 }
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:hover, #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:focus, #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:active {
-  color: #202125;
+  color: #000000;
 }
 @media screen and (max-width: 767px) {
   #contact-us #contact-us1 .left-section .hovereffect .overlay {
@@ -2076,7 +2076,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   background: #ffffff;
 }
 #contact-us #contact-us1 .right-section .social .info .button:hover, #contact-us #contact-us1 .right-section .social .info .button:focus, #contact-us #contact-us1 .right-section .social .info .button:active {
-  color: #202125;
+  color: #000000;
 }
 #contact-us #contact-us1 .right-section .insta-2-3 {
   display: block;
@@ -2157,7 +2157,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   }
 }
 #contact-us #contact-us2 .left-section #countries ul li:hover {
-  color: #A2A7BC;
+  color: #004AAD;
 }
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 .left-section #countries ul.one {
@@ -2218,11 +2218,11 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
   min-height: 164px;
 }
 #contact-us #contact-us2 .right-section form .button {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
 }
 #contact-us #contact-us2 .right-section form .button:before {
-  background: #A2A7BC;
+  background: #004AAD;
 }
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 {
@@ -2238,7 +2238,7 @@ a.white:hover:before, a.white:focus:before, a.white:active:before {
 /* contact-us styling end */
 /* footer styling start */
 footer {
-  background: #202125;
+  background: #000000;
   padding: 20px;
 }
 footer p {
@@ -2303,7 +2303,7 @@ footer p span {
   top: 50px;
 }
 #news-page #news #blog-container .timeline-badge a {
-  color: #A2A7BC;
+  color: #004AAD;
 }
 #news-page #news #blog-container .timeline-badge:before {
   display: block;
@@ -2337,11 +2337,11 @@ footer p span {
   margin-top: 50px;
 }
 #news-page #news .load-more .button {
-  background: #A2A7BC;
+  background: #004AAD;
   color: #ffffff;
 }
 #news-page #news .load-more .button:before {
-  background: #202125;
+  background: #000000;
 }
 
 /* news page styling end */
@@ -2365,7 +2365,7 @@ footer p span {
   background: #f5f5f5;
   padding: 30px;
   margin-bottom: 50px;
-  border-left: 5px solid #A2A7BC;
+  border-left: 5px solid #004AAD;
 }
 #news--detail-page #post #post-content .point-list {
   margin-bottom: 50px;
@@ -2387,7 +2387,7 @@ footer p span {
   line-height: 35px;
   font-size: 12px;
   font-family: "Raleway", sans-serif;
-  color: #A2A7BC;
+  color: #004AAD;
 }
 #news--detail-page #post .post-footer ul li a {
   color: #ffffff;
@@ -2424,7 +2424,7 @@ footer p span {
   margin-bottom: 5px;
 }
 #news--detail-page #blogger .blogger-data #blogger-info p:nth-child(2) {
-  color: #A2A7BC;
+  color: #004AAD;
   font-size: 12px;
   margin-bottom: 5px;
 }
@@ -2448,11 +2448,11 @@ footer p span {
   min-height: 300px;
 }
 #news--detail-page form .button {
-  background: #A2A7BC;
+  background: #004AAD;
   color: #ffffff;
 }
 #news--detail-page form .button:before {
-  background: #202125;
+  background: #000000;
 }
 
 /* news detail page styling end */

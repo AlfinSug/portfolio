@@ -34,7 +34,7 @@
 body {
   -webkit-transition: linear 0s;
           transition: linear 0s;
-  color: #202125;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   width: 100%;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0;
   line-height: normal;
-  color: #202125;
+  color: #000000;
   -webkit-transition: all 400ms linear;
           transition: all 400ms linear;
 }
@@ -306,7 +306,7 @@ a:focus {
           transition: all 400ms linear;
 }
 .blog-section a:hover {
-  color: #202125;
+  color: #000000;
 }
 .blog-section .user {
   margin-top: 30px;
@@ -692,11 +692,11 @@ a:focus {
   }
 }
 .navbar.shrink .nav li a {
-  color: #202125;
+  color: #000000;
 }
 .navbar.shrink .nav li a:focus {
   background: transparent;
-  color: #202125;
+  color: #000000;
 }
 .navbar.shrink .nav li a:hover {
   color: #73ae20;
@@ -766,7 +766,7 @@ a:focus {
 }
 @media screen and (max-width: 767px) {
   .navbar .nav li a:hover, .navbar .nav li a:focus {
-    color: #202125;
+    color: #000000;
   }
 }
 .navbar .nav li a:hover {
@@ -824,7 +824,7 @@ a:focus {
     padding: 4px 0;
   }
   .navbar .nav li a {
-    color: #202125;
+    color: #000000;
   }
 }
 .navbar .side-menu-button {
@@ -854,7 +854,7 @@ a:focus {
 }
 .navbar .side-menu-button:hover {
   color: #ffffff;
-  background: #202125;
+  background: #000000;
 }
 .navbar .side-menu-button.actives {
   background: transparent;
@@ -866,7 +866,7 @@ a:focus {
           transition: all 300ms linear;
 }
 .navbar .side-menu-button.actives .fa:hover {
-  color: #6a6a6a;
+  color: #004AAD;
 }
 .navbar .sidenav {
   height: 100%;
@@ -908,7 +908,7 @@ a:focus {
   text-align: center;
 }
 .navbar .sidenav ul li a {
-  color: #6a6a6a;
+  color: #004AAD;
   font-size: 42px;
   padding: 8px;
   text-align: center;
@@ -1045,7 +1045,7 @@ a:focus {
 #slider-tabs .hesperiden .tp-tab:hover .tp-tab-number,
 #slider-tabs .hesperiden .tp-tab.selected .tp-tab-number {
   background: #73ae20;
-  color: #202125;
+  color: #000000;
 }
 
 /* =================== Revolution ends =================== */
@@ -1147,7 +1147,7 @@ a:focus {
   background: #73ae20;
 }
 #about-us #about-us-2 .section:hover h2 {
-  color: #202125;
+  color: #000000;
   -webkit-transform: translateY(-20px);
       -ms-transform: translateY(-20px);
           transform: translateY(-20px);
@@ -1338,7 +1338,7 @@ a:focus {
   font-size: 13px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  color: #202125;
+  color: #000000;
   padding: 0;
 }
 #services #service-1 #responsiveTabsDemo .r-tabs-accordion-title {
@@ -1404,7 +1404,7 @@ a:focus {
   color: #ffffff;
 }
 #services #service-1 #responsiveTabsDemo .button:before {
-  background: #202125;
+  background: #000000;
 }
 @media screen and (max-width: 767px) {
   #services #service-2 .section {
@@ -1436,7 +1436,7 @@ a:focus {
   }
 }
 #services #service-2 .section .feature:hover h5 {
-  color: #202125;
+  color: #000000;
 }
 #services #service-2 .section .feature:hover .icon {
   -webkit-transform: translateX(-20px);
@@ -1620,7 +1620,7 @@ a:focus {
   min-height: 128px;
 }
 #portfolio #portfolio1 .block-container .load-more .btn-div .button {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
   position: absolute;
   right: 15px;
@@ -1789,10 +1789,10 @@ a:focus {
   color: #ffffff;
 }
 #portfolio #portfolio3 .pricing-table .button:before {
-  background: #202125;
+  background: #000000;
 }
 #portfolio #portfolio3 .pricing-table.black {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
   border-color: transparent;
 }
@@ -1804,7 +1804,7 @@ a:focus {
 }
 #portfolio #portfolio3 .pricing-table.black .button {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
 }
 #portfolio #portfolio3 .pricing-table.black .button:before {
   background: #73ae20;
@@ -1818,7 +1818,7 @@ a:focus {
   }
 }
 #portfolio #portfolio3 .pricing-table.black:hover .button:before {
-  background: #202125;
+  background: #000000;
 }
 #portfolio #portfolio3 .pricing-table:hover {
   color: #ffffff;
@@ -1829,7 +1829,7 @@ a:focus {
 }
 #portfolio #portfolio3 .pricing-table:hover .button {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
 }
 #portfolio #portfolio3 .pricing-table:hover .button:hover {
   color: #ffffff;
@@ -1858,7 +1858,7 @@ a:focus {
   color: #ffffff;
 }
 #news #news-1 .left-section .button:before {
-  background: #202125;
+  background: #000000;
 }
 @media screen and (max-width: 767px) {
   #news #news-1 .left-section {
@@ -1996,7 +1996,7 @@ a:focus {
   background: #ffffff;
 }
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:hover, #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:focus, #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:active {
-  color: #202125;
+  color: #000000;
 }
 @media screen and (max-width: 767px) {
   #contact-us #contact-us1 .left-section .hovereffect .overlay {
@@ -2053,7 +2053,7 @@ a:focus {
   background: #ffffff;
 }
 #contact-us #contact-us1 .right-section .social .info .button:hover, #contact-us #contact-us1 .right-section .social .info .button:focus, #contact-us #contact-us1 .right-section .social .info .button:active {
-  color: #202125;
+  color: #000000;
 }
 #contact-us #contact-us1 .right-section .insta-2-3 {
   display: block;
@@ -2194,7 +2194,7 @@ a:focus {
   min-height: 164px;
 }
 #contact-us #contact-us2 .right-section form .button {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
 }
 #contact-us #contact-us2 .right-section form .button:before {
@@ -2214,7 +2214,7 @@ a:focus {
 /* contact-us styling end */
 /* footer styling start */
 footer {
-  background: #202125;
+  background: #000000;
   padding: 20px;
 }
 footer p {
@@ -2317,7 +2317,7 @@ footer p span {
   color: #ffffff;
 }
 #news-page #news .load-more .button:before {
-  background: #202125;
+  background: #000000;
 }
 
 /* news page styling end */
@@ -2428,7 +2428,7 @@ footer p span {
   color: #ffffff;
 }
 #news--detail-page form .button:before {
-  background: #202125;
+  background: #000000;
 }
 
 /* news detail page styling end */

@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200italic,200,100,100italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800);
 /* font-family: 'Raleway', sans-serif; */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,300italic,400italic,600italic,700italic,800,800italic);
+
 /*
 + General Styling and Tags
 *body
@@ -33,8 +34,8 @@
 */
 body {
   -webkit-transition: linear 0s;
-          transition: linear 0s;
-  color: #202125;
+  transition: linear 0s;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   width: 100%;
@@ -42,21 +43,22 @@ body {
   background-repeat: repeat-y;
   background-position: 50% 0;
   -webkit-transition-property: background-position;
-          transition-property: background-position;
+  transition-property: background-position;
 }
 
 h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0;
   line-height: normal;
-  color: #202125;
+  color: #000000;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
 }
 
 h1 {
   font-size: 48px;
 }
+
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 32px;
@@ -68,6 +70,7 @@ h2 {
   font-weight: 100;
   font-family: "Raleway", sans-serif;
 }
+
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 30px;
@@ -77,6 +80,7 @@ h2 {
 h3 {
   font-size: 32px;
 }
+
 @media screen and (max-width: 767px) {
   h3 {
     font-size: 24px;
@@ -86,6 +90,7 @@ h3 {
 h4 {
   font-size: 24px;
 }
+
 @media screen and (max-width: 767px) {
   h4 {
     font-size: 18px;
@@ -95,7 +100,7 @@ h4 {
 h5 {
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  color: #f1c30f;
+  color: #004AAD;
   text-transform: uppercase;
 }
 
@@ -130,9 +135,10 @@ p {
   transform: perspective(1px) translateZ(0);
   position: relative;
   -webkit-transition: all linear 400ms;
-          transition: all linear 400ms;
+  transition: all linear 400ms;
   border: none;
 }
+
 @media screen and (max-width: 767px) {
   .button {
     padding: 10px 28px;
@@ -152,10 +158,10 @@ p {
   display: inline-block;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
-      transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transform-origin: 51%;
   -ms-transform-origin: 51%;
-      transform-origin: 51%;
+  transform-origin: 51%;
   -webkit-transition-property: -webkit-transform;
   transition-property: transform;
   -webkit-transition-duration: 0.3s;
@@ -167,7 +173,7 @@ p {
 .button:hover:before, .button:focus:before, .button:active:before {
   -webkit-transform: scaleX(1.05);
   -ms-transform: scaleX(1.05);
-      transform: scaleX(1.05);
+  transform: scaleX(1.05);
 }
 
 ul,
@@ -191,17 +197,20 @@ a:focus {
   line-height: 45px;
   margin-left: 35px;
 }
+
 @media screen and (max-width: 1199px) {
   .vertical-heading h2 {
     font-size: 29px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .vertical-heading h2 {
     margin-left: 0;
     line-height: normal;
   }
 }
+
 .vertical-heading span {
   display: table;
   position: relative;
@@ -209,23 +218,25 @@ a:focus {
   top: 52px;
   text-transform: uppercase;
   -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  color: #f1c30f;
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  color: #004AAD;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   word-spacing: 8px;
 }
+
 @media screen and (max-width: 767px) {
   .vertical-heading span {
     -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-            transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
     display: block;
     position: static;
     margin-bottom: 15px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .vertical-heading {
     text-align: center !important;
@@ -235,6 +246,7 @@ a:focus {
 .section-top-heading {
   margin-bottom: 90px;
 }
+
 .section-top-heading h5 {
   margin-bottom: 10px;
 }
@@ -242,6 +254,7 @@ a:focus {
 .list-inline li {
   padding: 0;
 }
+
 .list-inline li a {
   width: 35px;
   height: 35px;
@@ -251,18 +264,21 @@ a:focus {
   text-align: center;
   line-height: 35px;
   -webkit-transition: 400ms linear;
-          transition: 400ms linear;
+  transition: 400ms linear;
 }
+
 .list-inline li:nth-child(1) a:hover {
   background: #3b5998;
   border-color: transparent;
   color: #ffffff;
 }
+
 .list-inline li:nth-child(2) a:hover {
   background: #58bbff;
   border-color: transparent;
   color: #ffffff;
 }
+
 .list-inline li:nth-child(3) a:hover {
   background: -webkit-radial-gradient(33% 100%, circle, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
   background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
@@ -283,63 +299,75 @@ a:focus {
   background: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   padding: 20px;
   border-radius: 4px;
 }
+
 .blog-section h4 {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 40px;
 }
+
 .blog-section p {
   line-height: 24px;
 }
+
 .blog-section a {
-  color: #f1c30f;
+  color: #004AAD;
   font-size: 12px;
   font-family: "Raleway", sans-serif;
   display: inline-block;
   text-transform: uppercase;
   margin-top: 25px;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
 }
+
 .blog-section a:hover {
-  color: #202125;
+  color: #000000;
 }
+
 .blog-section .user {
   margin-top: 30px;
   padding-top: 10px;
   border-top: 2px solid #f5f5f5;
 }
+
 .blog-section .user p {
   font-size: 11px;
   font-family: "Raleway", sans-serif;
   line-height: normal;
 }
+
 .blog-section .user p .text-right {
   line-height: 24px;
 }
+
 @media screen and (max-width: 1199px) {
   .blog-section .user img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+
   .blog-section .user p {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 767px) {
   .blog-section .user img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
+
   .blog-section .user p {
     text-align: inherit;
   }
+
   .blog-section .user p.text-right {
     text-align: right;
   }
@@ -352,9 +380,11 @@ a:focus {
   background: url("../images/cover.jpg") no-repeat fixed center;
   background-size: cover;
 }
+
 #banner h1, #banner p {
   color: #ffffff;
 }
+
 #banner h1 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 10px;
@@ -485,124 +515,160 @@ a:focus {
 @keyframes cssload-rota {
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
+
 @-ms-keyframes cssload-rota {
   to {
     -ms-transform: rotate(360deg);
   }
 }
+
 @-webkit-keyframes cssload-rota {
   to {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @keyframes cssload-opa {
   12.0% {
     opacity: 0.80;
   }
+
   19.5% {
     opacity: 0.88;
   }
+
   37.2% {
     opacity: 0.64;
   }
+
   40.5% {
     opacity: 0.52;
   }
+
   52.7% {
     opacity: 0.69;
   }
+
   60.2% {
     opacity: 0.60;
   }
+
   66.6% {
     opacity: 0.52;
   }
+
   70.0% {
     opacity: 0.63;
   }
+
   79.9% {
     opacity: 0.60;
   }
+
   84.2% {
     opacity: 0.75;
   }
+
   91.0% {
     opacity: 0.87;
   }
 }
+
 @-ms-keyframes cssload-opa {
   12.0% {
     opacity: 0.80;
   }
+
   19.5% {
     opacity: 0.88;
   }
+
   37.2% {
     opacity: 0.64;
   }
+
   40.5% {
     opacity: 0.52;
   }
+
   52.7% {
     opacity: 0.69;
   }
+
   60.2% {
     opacity: 0.60;
   }
+
   66.6% {
     opacity: 0.52;
   }
+
   70.0% {
     opacity: 0.63;
   }
+
   79.9% {
     opacity: 0.60;
   }
+
   84.2% {
     opacity: 0.75;
   }
+
   91.0% {
     opacity: 0.87;
   }
 }
+
 @-webkit-keyframes cssload-opa {
   12.0% {
     opacity: 0.80;
   }
+
   19.5% {
     opacity: 0.88;
   }
+
   37.2% {
     opacity: 0.64;
   }
+
   40.5% {
     opacity: 0.52;
   }
+
   52.7% {
     opacity: 0.69;
   }
+
   60.2% {
     opacity: 0.60;
   }
+
   66.6% {
     opacity: 0.52;
   }
+
   70.0% {
     opacity: 0.63;
   }
+
   79.9% {
     opacity: 0.60;
   }
+
   84.2% {
     opacity: 0.75;
   }
+
   91.0% {
     opacity: 0.87;
   }
 }
+
 /* loader styling end */
 /* make portfolio font big */
 .list button {
@@ -623,131 +689,155 @@ a:focus {
 /* pricing table font */
 /* vertical heading */
 .vertical-heading span {
-  color: #f1c30f;
+  color: #004AAD;
 }
 
 /* home styling start */
 /*navbar styling start */
 .navbar {
   -webkit-transition: all 300ms linear;
-          transition: all 300ms linear;
+  transition: all 300ms linear;
   border: none !important;
   margin-top: 40px
-  /* The navigation menu links */
-  /* When you mouse over the navigation links, change their color */
-  /* Position and style the close button (top right corner) */
+    /* The navigation menu links */
+    /* When you mouse over the navigation links, change their color */
+    /* Position and style the close button (top right corner) */
 }
+
 .navbar.shrink {
   background: #ffffff;
   margin: 0;
   padding: 8px 0;
   box-shadow: 0 8px 6px -9px #999;
 }
+
 .navbar.shrink .nav li a {
-  color: #202125;
+  color: #000000;
 }
+
 .navbar.shrink .nav li a:focus {
   background: transparent;
-  color: #202125;
+  color: #000000;
 }
+
 .navbar.shrink .nav li a:hover {
-  color: #f1c30f;
+  color: #004AAD;
 }
+
 .navbar .navbar-nav {
   margin-right: 5px;
 }
+
 .navbar .navbar-header .navbar-brand {
   width: 155px;
   height: auto;
   padding: 7px 15px;
 }
+
 @media screen and (max-width: 767px) {
   .navbar .navbar-header .navbar-brand {
     padding: 8px 15px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .navbar .navbar-header .navbar-brand {
     width: 125px;
   }
 }
+
 .navbar .navbar-header .navbar-brand img {
   width: 100%;
 }
+
 .navbar .navbar-header button {
   background: #ffffff;
 }
+
 .navbar .navbar-header button span {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 @media screen and (max-width: 767px) {
   .navbar .navbar-collapse {
     background: #ffffff;
   }
 }
+
 .navbar .nav li {
   padding: 15px;
 }
+
 .navbar .nav li a {
   color: #ffffff;
   -webkit-transition: border-color 300ms linear;
-          transition: border-color 300ms linear;
+  transition: border-color 300ms linear;
   padding: 0;
   font-size: 13px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
+
 .navbar .nav li a:hover, .navbar .nav li a:focus {
   background: transparent;
   color: #ffffff;
 }
+
 @media screen and (max-width: 767px) {
   .navbar .nav li a:hover, .navbar .nav li a:focus {
-    color: #202125;
+    color: #000000;
   }
 }
+
 .navbar .nav li a:hover {
-  color: #f1c30f;
+  color: #004AAD;
 }
+
 .navbar .nav li a:before {
   position: absolute;
   content: '';
   width: 100%;
   display: table;
   height: 4px;
-  background: #f1c30f;
+  background: #004AAD;
   bottom: -5px;
   -webkit-transition: all 300ms linear;
-          transition: all 300ms linear;
+  transition: all 300ms linear;
   -webkit-transform: scaleX(0);
-      -ms-transform: scaleX(0);
-          transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
 }
+
 @media screen and (max-width: 767px) {
   .navbar .nav li a:before {
     display: none;
   }
 }
+
 .navbar .nav li.active a:before {
   -webkit-transform: scaleX(1);
-      -ms-transform: scaleX(1);
-          transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
 }
+
 @media screen and (max-width: 767px) {
   .navbar {
     margin-top: 0;
   }
+
   .navbar, .navbar.shrink {
     padding: 4px 0;
   }
+
   .navbar .nav li a {
-    color: #202125;
+    color: #000000;
   }
 }
+
 .navbar .side-menu-button {
   position: relative;
   cursor: pointer;
-  background-color: #f1c30f;
+  background-color: #004AAD;
   padding: 7px 14px;
   border-radius: 4px;
   color: #ffffff;
@@ -759,27 +849,33 @@ a:focus {
   top: 10px;
   right: 0;
 }
+
 @media screen and (max-width: 767px) {
   .navbar .side-menu-button {
     top: 7px;
   }
 }
+
 .navbar .side-menu-button:hover {
   color: #ffffff;
-  background: #202125;
+  background: #000000;
 }
+
 .navbar .side-menu-button.actives {
   background: transparent;
 }
+
 .navbar .side-menu-button.actives .fa {
-  color: #f1c30f;
+  color: #004AAD;
   font-size: 36px;
   -webkit-transition: all 300ms linear;
-          transition: all 300ms linear;
+  transition: all 300ms linear;
 }
+
 .navbar .side-menu-button.actives .fa:hover {
-  color: #6a6a6a;
+  color: #004AAD;
 }
+
 .navbar .sidenav {
   height: 100%;
   /* 100% Full-height */
@@ -800,51 +896,61 @@ a:focus {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
+
 .navbar .mySideBar {
   width: 100%;
 }
-.navbar .mySideBar > ul.nav {
+
+.navbar .mySideBar>ul.nav {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .navbar .sidenav ul li {
   display: block;
   text-align: center;
 }
+
 .navbar .sidenav ul li a {
-  color: #6a6a6a;
+  color: #004AAD;
   font-size: 42px;
   padding: 8px;
   text-align: center;
   display: inline-block;
   -webkit-transition: all 0.4s linear;
-          transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
+
 @media screen and (max-width: 767px) {
   .navbar .sidenav ul li a {
     font-size: 18px;
     border: none;
   }
 }
+
 .navbar .sidenav ul li.active a {
   border: none;
 }
+
 @media screen and (max-width: 1199px) {
   .navbar .sidenav ul li {
     padding: 5px;
     border: none;
   }
 }
-.navbar .sidenav ul > li.active a {
-  color: #f1c30f;
+
+.navbar .sidenav ul>li.active a {
+  color: #004AAD;
 }
-.navbar .nav > li > a:focus,
-.navbar .nav > li > a:hover {
+
+.navbar .nav>li>a:focus,
+.navbar .nav>li>a:hover {
   background: transparent;
 }
+
 .navbar .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -860,48 +966,59 @@ a:focus {
 #slider1 {
   text-transform: uppercase;
 }
+
 #slider1 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
 }
+
 #slider1 h1 span {
-  color: #f1c30f;
+  color: #004AAD;
   font-weight: 500;
 }
+
 #slider1 p {
   text-transform: none;
   font-family: "Open Sans", sans-serif;
   line-height: 39px;
   font-weight: 100;
 }
+
 #slider1 .button.first {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
   border: none;
 }
+
 #slider1 .button.second {
   background: transparent;
   color: #ffffff;
   border: 1px solid #ffffff;
 }
+
 @media screen and (max-width: 767px) {
   #slider1 .button.second {
     border: 1px solid #ffffff !important;
   }
 }
+
 #slider1 .button.second:hover, #slider1 .button.second:focus, #slider1 .button.second:active {
   color: #ffffff;
   border-color: transparent;
 }
+
 #slider1 .button:before {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 #slider1 .button:hover, #slider1 .button:focus, #slider1 .button:active {
   color: #ffffff;
 }
+
 #slider1 .tp-bullets {
   top: 57% !important;
 }
+
 #slider1 .tp-bullets .tp-bullet {
   width: 35px;
   height: auto;
@@ -909,33 +1026,38 @@ a:focus {
   background: transparent;
   cursor: pointer;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
 }
+
 #slider1 .tp-bullets .tp-bullet:hover, #slider1 .tp-bullets .tp-bullet.selected {
   background: transparent;
-  border-bottom: 2px solid #f1c30f;
+  border-bottom: 2px solid #004AAD;
 }
+
 #slider1 .tp-bullets .tp-bullet span {
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 40px;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   display: block;
   width: 100%;
   margin-bottom: -10px;
 }
+
 @media screen and (max-width: 992px) {
   #slider1 .tp-bullets .tp-bullet {
     width: 30px;
     border-bottom-width: 1px;
   }
+
   #slider1 .tp-bullets .tp-bullet span {
     font-size: 16px;
     line-height: 25px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #slider1 .tp-bullets .tp-bullet {
     display: none;
@@ -955,127 +1077,155 @@ a:focus {
   /* about-us-4 end */
   /* about-us-4 end */
 }
+
 #about-us #about-us-1 .outer-bound {
   min-height: 203px;
   position: relative;
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-1 .outer-bound {
     position: static;
     min-height: 100%;
   }
 }
+
 #about-us #about-us-1 .outer-bound .left-section {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-1 .outer-bound .left-section {
     -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-            transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
     position: static;
     margin-bottom: 50px;
   }
 }
+
 #about-us #about-us-1 .right-section p:first-child {
   margin-bottom: 35px;
 }
+
 #about-us #about-us-1 .right-section p {
   line-height: 24px;
 }
+
 #about-us #about-us-1 .bottom-section {
   margin-top: 85px;
 }
+
 #about-us #about-us-1 .bottom-section img {
   display: block;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-1 {
     text-align: center;
   }
 }
+
 #about-us #about-us-2 {
   background: #f5f5f5;
 }
+
 #about-us #about-us-2 .section {
   padding: 80px 30px;
   background: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 400ms ease-in-out;
-          transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-2 .section.middle-section {
     margin: 50px 0;
   }
 }
+
 #about-us #about-us-2 .section h2 {
   margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   -webkit-transition: all 400ms ease-in-out;
-          transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
+
 #about-us #about-us-2 .section hr {
   width: 45px;
   height: 3px;
-  background: #f1c30f;
+  background: #004AAD;
   margin: 0 auto 20px;
   -webkit-transition: all 400ms ease-in-out;
-          transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
   border: none;
 }
+
 #about-us #about-us-2 .section h4 {
   margin-bottom: 10px;
   font-family: "Raleway", sans-serif;
 }
+
 #about-us #about-us-2 .section p {
   line-height: 24px;
 }
+
 #about-us #about-us-2 .section:hover {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 #about-us #about-us-2 .section:hover hr {
   background: #ffffff;
 }
+
 #about-us #about-us-2 .section:hover h2 {
   -webkit-transform: translateY(-20px);
-      -ms-transform: translateY(-20px);
-          transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
 }
+
 #about-us #about-us-2 .section:hover h2, #about-us #about-us-2 .section:hover h4, #about-us #about-us-2 .section:hover p {
   color: #ffffff;
 }
+
 #about-us #about-us-3 .owl-controls {
   position: absolute;
   left: 6px;
 }
+
 #about-us #about-us-3 .owl-prev {
   margin-right: 5px;
 }
+
 #about-us #about-us-3 #image-slider .item {
   margin: 8px;
 }
+
 #about-us #about-us-3 #image-slider .item img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 #about-us #about-us-3 .vertical-heading {
   margin-bottom: 50px;
 }
+
 #about-us #about-us-3 p {
   line-height: 24px;
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-3 #of p {
     margin-bottom: 50px;
   }
 }
+
 #about-us #about-us-3 .hovereffect {
   width: 100%;
   height: 100%;
@@ -1083,10 +1233,12 @@ a:focus {
   overflow: hidden;
   position: relative;
 }
+
 #about-us #about-us-3 .hovereffect img {
   display: block;
   position: relative;
 }
+
 #about-us #about-us-3 .hovereffect .overlay {
   width: 100%;
   height: 100%;
@@ -1098,45 +1250,54 @@ a:focus {
   opacity: 0;
   color: #ffffff;
   -webkit-transition: all linear 300ms;
-          transition: all linear 300ms;
+  transition: all linear 300ms;
 }
+
 #about-us #about-us-3 .hovereffect .overlay .info {
   position: absolute;
   left: 23px;
   top: 30px;
 }
+
 #about-us #about-us-3 .hovereffect .overlay .info h6 {
-  color: #f1c30f;
+  color: #004AAD;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
 }
+
 #about-us #about-us-3 .hovereffect .overlay .info p {
   color: #ffffff;
 }
+
 #about-us #about-us-3 .hovereffect .overlay .list-inline {
   position: absolute;
   right: 23px;
   bottom: 30px;
 }
+
 #about-us #about-us-3 .hovereffect:hover .overlay {
   opacity: 1;
   top: 0;
 }
+
 #about-us #about-us-3 .bottom-section {
   margin-top: 50px;
 }
+
 #about-us #about-us-3 .bottom-section .progress {
   height: 25px;
   background: #eeeeee;
   border-radius: 0;
   overflow: visible;
 }
+
 #about-us #about-us-3 .bottom-section .progress .progress-bar {
-  background: #f1c30f;
+  background: #004AAD;
   position: relative;
   -webkit-transition: 0.2s;
-          transition: 0.2s;
+  transition: 0.2s;
 }
+
 #about-us #about-us-3 .bottom-section .progress .progress-bar span {
   position: absolute;
   left: 97%;
@@ -1148,6 +1309,7 @@ a:focus {
   font-weight: 100;
   top: -40px;
 }
+
 #about-us #about-us-3 .bottom-section .progress .progress-bar span:before {
   display: table;
   content: '';
@@ -1160,40 +1322,48 @@ a:focus {
   bottom: -8px;
   left: 23%;
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-3 .bottom-section .progress {
     height: 20px;
   }
 }
+
 #about-us #about-us-3 .bottom-section p {
   font-family: "Raleway", sans-serif;
   line-height: 62px;
   font-size: 18px;
 }
+
 @media screen and (max-width: 767px) {
   #about-us #about-us-3 .bottom-section p {
     line-height: 45px;
     font-size: 15px;
   }
 }
+
 #about-us #about-us-3 .bottom-section .first, #about-us #about-us-3 .bottom-section .second {
   margin-bottom: 20px;
 }
+
 #about-us #about-us-4 {
   background: url("../images/about-us4-bg.jpg") no-repeat fixed center;
   background-size: cover;
 }
+
 #about-us #about-us-4 h3 {
   font-family: "Raleway", sans-serif;
   color: #ffffff;
   line-height: 45px;
 }
+
 #about-us #about-us-4 h3 i {
   color: #59717a;
 }
+
 #about-us #about-us-4 p {
   font-family: "Raleway", sans-serif;
-  color: #f1c30f;
+  color: #004AAD;
   margin-top: 8px;
 }
 
@@ -1207,227 +1377,275 @@ a:focus {
   /* service-3 start*/
   /* service-3 end*/
 }
+
 #services #service-1 .outer-bound {
   min-height: 442px;
   position: relative;
 }
+
 @media screen and (max-width: 767px) {
   #services #service-1 .outer-bound {
     position: static;
     min-height: 100%;
   }
 }
+
 #services #service-1 .outer-bound .left-section {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
 @media screen and (max-width: 767px) {
   #services #service-1 .outer-bound .left-section {
     -webkit-transform: translate(0);
-        -ms-transform: translate(0);
-            transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translate(0);
     position: static;
   }
 }
+
 @media screen and (max-width: 767px) {
   #services #service-1 .right-section {
     text-align: center;
     margin-top: 50px;
   }
 }
+
 #services #service-1 .right-section .feature h5 {
   margin-bottom: 2px;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   font-size: 12px;
 }
+
 #services #service-1 .right-section .feature h4 {
   margin-bottom: 8px;
 }
+
 #services #service-1 .right-section .feature.middle {
   margin: 50px 0;
 }
+
 #services #service-1 .right-section .feature .icon {
   text-align: right;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
 }
+
 @media screen and (max-width: 767px) {
   #services #service-1 .right-section .feature .icon {
     text-align: center;
     font-size: 36px;
   }
 }
+
 #services #service-1 .right-section .feature:hover h5 {
-  color: #202125;
+  color: #000000;
 }
+
 #services #service-1 .right-section .feature:hover .icon {
   -webkit-transform: translateX(-20px);
-      -ms-transform: translateX(-20px);
-          transform: translateX(-20px);
-  color: #f1c30f;
+  -ms-transform: translateX(-20px);
+  transform: translateX(-20px);
+  color: #004AAD;
 }
+
 #services #service-2 {
   background: #f5f5f5;
 }
+
 #services #service-2 img {
   width: 100%;
 }
+
 #services #service-2 #responsiveTabsDemo .tabs-bg {
   background: #ffffff;
   padding: 61px 30px;
 }
+
 @media screen and (max-width: 992px) {
   #services #service-2 #responsiveTabsDemo .tabs-bg {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 767px) {
   #services #service-2 #responsiveTabsDemo .tabs-bg {
     min-height: 300px !important;
   }
 }
+
 #services #service-2 #responsiveTabsDemo .col-md-6 {
   padding: 0;
 }
+
 @media screen and (max-width: 767px) {
   #services #service-2 #responsiveTabsDemo .col-md-6 {
     padding: 0 15px;
   }
 }
+
 #services #service-2 #responsiveTabsDemo .r-tabs .r-tabs-panel {
   padding: 50px 0;
 }
+
 #services #service-2 #responsiveTabsDemo ul {
   margin-bottom: 50px;
 }
+
 #services #service-2 #responsiveTabsDemo ul li {
   padding: 5px 30px;
 }
+
 @media screen and (max-width: 767px) {
   #services #service-2 #responsiveTabsDemo {
     text-align: center;
   }
 }
+
 #services #service-2 #responsiveTabsDemo .r-tabs-anchor {
   font-size: 13px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
-  color: #202125;
+  color: #000000;
   padding: 0;
 }
+
 #services #service-2 #responsiveTabsDemo .r-tabs-accordion-title {
   text-align: center;
   margin-bottom: 10px;
 }
+
 #services #service-2 #responsiveTabsDemo .r-tabs-state-active a {
-  border-bottom: 3px solid #f1c30f;
+  border-bottom: 3px solid #004AAD;
   -webkit-transition: border-color 300ms linear;
-          transition: border-color 300ms linear;
+  transition: border-color 300ms linear;
   padding-bottom: 5px;
-  color: #f1c30f;
+  color: #004AAD;
 }
+
 #services #service-2 #responsiveTabsDemo h2 {
   font-size: 48px;
   color: #e4e4e4;
   font-family: "Raleway", sans-serif;
   margin-bottom: 20px;
 }
+
 @media screen and (max-width: 1199px) {
   #services #service-2 #responsiveTabsDemo h2 {
     font-size: 40px;
     margin-bottom: 0;
   }
 }
+
 @media screen and (max-width: 992px) {
   #services #service-2 #responsiveTabsDemo h2 {
     margin-top: 10px;
   }
 }
+
 #services #service-2 #responsiveTabsDemo h3 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 30px;
 }
+
 @media screen and (max-width: 1199px) {
   #services #service-2 #responsiveTabsDemo h3 {
     margin-bottom: 5px;
     font-size: 28px;
   }
 }
+
 @media screen and (max-width: 992px) {
   #services #service-2 #responsiveTabsDemo h3 {
     margin-bottom: 15px;
   }
 }
+
 #services #service-2 #responsiveTabsDemo p {
   margin-bottom: 30px;
   line-height: 24px;
 }
+
 @media screen and (max-width: 1199px) {
   #services #service-2 #responsiveTabsDemo p {
     line-height: 18px;
     margin-bottom: 18px;
   }
 }
+
 @media screen and (max-width: 992px) {
   #services #service-2 #responsiveTabsDemo p {
     line-height: 22px;
   }
 }
+
 #services #service-2 #responsiveTabsDemo .button {
-  background: #f1c30f;
+  background: #004AAD;
   color: #ffffff;
 }
+
 #services #service-2 #responsiveTabsDemo .button:before {
-  background: #202125;
+  background: #000000;
 }
+
 #services #service-3 {
   background: url("../images/cover10.jpg") no-repeat fixed center;
   background-size: cover;
 }
+
 #services #service-3 .vertical-heading {
   margin-bottom: 50px;
 }
+
 #services #service-3 .vertical-heading h2 {
   color: #ffffff;
 }
+
 #services #service-3 .section {
   background: rgba(61, 68, 68, 0.5);
   padding: 25px 50px;
   min-height: 170px;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   border-radius: 4px;
 }
+
 @media screen and (max-width: 767px) {
   #services #service-3 .section {
     padding: 20px 15px;
   }
 }
+
 #services #service-3 .section h2, #services #service-3 .section h3, #services #service-3 .section p {
   color: #ffffff;
 }
+
 #services #service-3 .section h2 {
-  color: #f1c30f;
+  color: #004AAD;
   margin-bottom: 6px;
 }
+
 @media screen and (max-width: 992px) {
   #services #service-3 .section {
     min-height: 188px;
   }
 }
+
 #services #service-3 .section:hover {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 #services #service-3 .section:hover h2 {
-  color: #202125;
+  color: #000000;
   -webkit-transform: translateY(-20px);
-      -ms-transform: translateY(-20px);
-          transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
 }
+
 @media screen and (max-width: 767px) {
   #services #service-3 .section.left-section {
     margin-bottom: 50px;
@@ -1443,9 +1661,11 @@ a:focus {
   /* portfolio2 end */
   /*portfolio3 start */
 }
+
 #portfolio .vertical-heading {
   margin-bottom: 50px;
 }
+
 #portfolio #portfolio1 .list button {
   background: transparent;
   box-shadow: none;
@@ -1456,49 +1676,60 @@ a:focus {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
+
 #portfolio #portfolio1 .list button:focus {
   outline: none;
 }
+
 #portfolio #portfolio1 .list button span {
   display: block;
   -webkit-transition: border-color 0.4s ease-in-out;
-          transition: border-color 0.4s ease-in-out;
+  transition: border-color 0.4s ease-in-out;
   padding-bottom: 5px;
 }
+
 @media screen and (max-width: 992px) {
   #portfolio #portfolio1 .list button {
     padding-right: 10px;
   }
 }
+
 #portfolio #portfolio1 .list button.active span {
-  border-bottom: 3px solid #f1c30f;
-  color: #f1c30f;
+  border-bottom: 3px solid #004AAD;
+  color: #004AAD;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .list {
     text-align: center;
   }
 }
+
 #portfolio #portfolio1 img {
   width: 100%;
 }
+
 #portfolio #portfolio1 .block-container .even:nth-child(even) {
   top: -275px;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .block-container .even:nth-child(even) {
     top: 0;
   }
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item {
   display: block;
   position: relative;
   margin-top: 50px;
   overflow: hidden;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item:hover .cap1, #portfolio #portfolio1 .block-container .filter .each-item:hover .cap2 {
   left: 0;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap1 {
   position: absolute;
   width: 100%;
@@ -1508,23 +1739,26 @@ a:focus {
   left: -100%;
   padding: 10px;
   -webkit-transition: all .5s;
-          transition: all .5s;
+  transition: all .5s;
   color: #ffffff;
   border-top: 15px solid #373a3f;
   border-left: 15px solid #373a3f;
   border-right: 15px solid #373a3f;
   text-align: right;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap1 i {
   display: inline-block;
   margin-right: 15px;
   margin-top: 15px;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap1 i:hover {
   color: #ff0000;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 {
   position: absolute;
   width: 100%;
@@ -1534,191 +1768,233 @@ a:focus {
   left: 100%;
   padding: 10px;
   -webkit-transition: all .5s;
-          transition: all .5s;
+  transition: all .5s;
   border-bottom: 15px solid #373a3f;
   border-left: 15px solid #373a3f;
   border-right: 15px solid #373a3f;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 h4, #portfolio #portfolio1 .block-container .filter .each-item .cap2 p {
   color: #ffffff;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text {
   position: absolute;
   bottom: 17px;
   left: 20px;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text h4, #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text p {
   color: #ffffff;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text h4 {
-  color: #f1c30f;
+  color: #004AAD;
   font-size: 20px;
 }
+
 #portfolio #portfolio1 .block-container .filter .each-item .cap2 .text p {
   font-size: 12px;
   font-weight: 100;
 }
+
 #portfolio #portfolio1 .block-container #stats.top {
   top: -275px;
   float: right;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .block-container #stats.top {
     top: 0;
     margin-bottom: 0;
   }
 }
+
 #portfolio #portfolio1 .block-container #stats.bottom {
   margin-bottom: 100px;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .block-container #stats.bottom {
     top: 0;
     margin-bottom: 0;
   }
 }
+
 #portfolio #portfolio1 .block-container .load-more {
   margin-top: 50px;
 }
+
 #portfolio #portfolio1 .block-container .load-more p {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
 }
+
 #portfolio #portfolio1 .block-container .load-more h1 {
   font-size: 72px;
   font-family: "Open Sans", sans-serif;
 }
+
 #portfolio #portfolio1 .block-container .load-more .btn-div {
   min-height: 128px;
 }
+
 #portfolio #portfolio1 .block-container .load-more .btn-div .button {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
   position: absolute;
   right: 15px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
 #portfolio #portfolio1 .block-container .load-more .btn-div .button:before {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .block-container .load-more .btn-div {
     min-height: 134px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio1 .block-container .load-more {
     margin-bottom: 0;
   }
+
   #portfolio #portfolio1 .block-container .load-more h1 {
     font-size: 48px;
   }
 }
+
 #portfolio #portfolio2 {
   background: #f5f5f5;
 }
+
 #portfolio #portfolio2 #client-slider {
   top: -120px;
 }
+
 #portfolio #portfolio2 #client-slider .item {
   padding: 50px;
-  background: #f1c30f;
+  background: #004AAD;
   color: #ffffff;
 }
+
 #portfolio #portfolio2 #client-slider .item .row {
   margin-bottom: 25px;
 }
+
 #portfolio #portfolio2 #client-slider .item h3 {
   font-family: "Raleway", sans-serif;
   line-height: 35px;
   color: #ffffff;
 }
+
 #portfolio #portfolio2 #client-slider .item .small {
   font-size: 20px;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio2 #client-slider .item .small {
     font-size: 16px;
   }
 }
+
 #portfolio #portfolio2 #client-slider .item p {
   color: #ffffff;
 }
+
 #portfolio #portfolio2 #client-slider .item p.long {
   margin-bottom: 26px;
 }
+
 #portfolio #portfolio2 #client-slider .client {
   position: relative;
   z-index: 20000;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio2 #client-slider .client img {
     margin-left: 14px;
   }
 }
+
 #portfolio #portfolio2 #client-slider .client .client-name {
   width: 106px;
   text-align: left;
   margin-top: 25px;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio2 #client-slider .client .client-name {
     text-align: center;
     margin-top: 10px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio2 #client-slider {
     position: static;
   }
 }
+
 #portfolio #portfolio2 .owl-controls {
   position: relative;
   top: -75px;
   text-align: right;
   padding-right: 50px;
 }
+
 #portfolio #portfolio2 .owl-controls .owl-next {
   margin-left: 5px;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio2 {
     padding: 100px 0;
   }
+
   #portfolio #portfolio2 .vertical-heading {
     padding: 0;
   }
 }
+
 #portfolio #portfolio3 .pricing-table {
   border: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   padding: 32px 21px;
 }
+
 #portfolio #portfolio3 .pricing-table h4 {
-  color: #f1c30f;
+  color: #004AAD;
   font-family: "Raleway", sans-serif;
   margin-bottom: 25px;
 }
+
 #portfolio #portfolio3 .pricing-table .price {
   padding: 22px 0;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
 }
+
 #portfolio #portfolio3 .pricing-table .price h2 {
   margin-left: 20px;
   position: relative;
   font-family: "Raleway", sans-serif;
   color: #000000;
 }
+
 #portfolio #portfolio3 .pricing-table .price h2 span {
   font-family: "Raleway", sans-serif;
 }
+
 #portfolio #portfolio3 .pricing-table .price h2 .dollar {
   font-size: 18px;
   display: inline-block;
@@ -1726,6 +2002,7 @@ a:focus {
   left: -20px;
   top: 10px;
 }
+
 #portfolio #portfolio3 .pricing-table .price h2 .month {
   font-size: 10px;
   display: inline-block;
@@ -1734,75 +2011,94 @@ a:focus {
   bottom: -4px;
   color: #929292;
 }
+
 @media screen and (max-width: 992px) {
   #portfolio #portfolio3 .pricing-table .price h2 {
     margin-left: 10px;
   }
 }
+
 #portfolio #portfolio3 .pricing-table .price p {
   color: #929292;
 }
+
 #portfolio #portfolio3 .pricing-table ul.packages {
   padding: 20px 0;
 }
+
 #portfolio #portfolio3 .pricing-table ul.packages li {
   font-size: 13px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 40px;
 }
+
 #portfolio #portfolio3 .pricing-table ul.packages li i {
   display: inline-block;
   width: 24px;
   color: #62be10;
 }
+
 #portfolio #portfolio3 .pricing-table .button {
-  background: #f1c30f;
+  background: #004AAD;
   color: #ffffff;
 }
+
 #portfolio #portfolio3 .pricing-table .button:before {
-  background: #202125;
+  background: #000000;
 }
+
 #portfolio #portfolio3 .pricing-table.black {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
   border-color: transparent;
 }
+
 #portfolio #portfolio3 .pricing-table.black ul.packages li i {
   color: #ffffff;
 }
-#portfolio #portfolio3 .pricing-table.black h4, #portfolio #portfolio3 .pricing-table.black h2, #portfolio #portfolio3 .pricing-table.black p, #portfolio #portfolio3 .pricing-table.black h2 > .month {
+
+#portfolio #portfolio3 .pricing-table.black h4, #portfolio #portfolio3 .pricing-table.black h2, #portfolio #portfolio3 .pricing-table.black p, #portfolio #portfolio3 .pricing-table.black h2>.month {
   color: #ffffff;
 }
+
 #portfolio #portfolio3 .pricing-table.black .button {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
 }
+
 #portfolio #portfolio3 .pricing-table.black .button:before {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 #portfolio #portfolio3 .pricing-table.black .button:hover, #portfolio #portfolio3 .pricing-table.black .button:focus, #portfolio #portfolio3 .pricing-table.black .button:active {
   color: #ffffff;
 }
+
 @media screen and (max-width: 767px) {
   #portfolio #portfolio3 .pricing-table.black {
     margin: 50px 0;
   }
 }
+
 #portfolio #portfolio3 .pricing-table.black:hover .button:before {
-  background: #202125;
+  background: #000000;
 }
+
 #portfolio #portfolio3 .pricing-table:hover {
   color: #ffffff;
-  background: #f1c30f;
+  background: #004AAD;
 }
-#portfolio #portfolio3 .pricing-table:hover h2, #portfolio #portfolio3 .pricing-table:hover h4, #portfolio #portfolio3 .pricing-table:hover h2 > span, #portfolio #portfolio3 .pricing-table:hover p, #portfolio #portfolio3 .pricing-table:hover ul li > i, #portfolio #portfolio3 .pricing-table:hover h2 > .month {
+
+#portfolio #portfolio3 .pricing-table:hover h2, #portfolio #portfolio3 .pricing-table:hover h4, #portfolio #portfolio3 .pricing-table:hover h2>span, #portfolio #portfolio3 .pricing-table:hover p, #portfolio #portfolio3 .pricing-table:hover ul li>i, #portfolio #portfolio3 .pricing-table:hover h2>.month {
   color: #ffffff;
 }
+
 #portfolio #portfolio3 .pricing-table:hover .button {
   background: #ffffff;
-  color: #202125;
+  color: #000000;
 }
+
 #portfolio #portfolio3 .pricing-table:hover .button:hover {
   color: #ffffff;
 }
@@ -1814,29 +2110,36 @@ a:focus {
   /*news-1 start */
   /*news-1 end */
 }
+
 #news #news-1 {
   background: #f5f5f5;
 }
+
 #news #news-1 p {
   color: #535353;
   line-height: 24px;
 }
+
 #news #news-1 .vertical-heading {
   margin-bottom: 30px;
 }
+
 #news #news-1 .left-section .button {
   margin-top: 25px;
-  background: #f1c30f;
+  background: #004AAD;
   color: #ffffff;
 }
+
 #news #news-1 .left-section .button:before {
-  background: #202125;
+  background: #000000;
 }
+
 @media screen and (max-width: 767px) {
   #news #news-1 .left-section {
     text-align: center;
   }
 }
+
 @media screen and (max-width: 767px) {
   #news #news-1 .blog-section {
     margin-top: 50px;
@@ -1853,66 +2156,79 @@ a:focus {
   /* contact-us-3 start */
   /* contact-us-3 end */
 }
+
 #contact-us #contact-us1 {
   padding-top: 100px;
 }
+
 @media screen and (min-width: 768px) {
   #contact-us #contact-us1 .padding {
     padding: 0;
   }
 }
+
 #contact-us #contact-us1 .left-section, #contact-us #contact-us1 .right-section {
   height: 540px;
   max-width: 586px;
 }
+
 @media screen and (max-width: 1199px) {
   #contact-us #contact-us1 .left-section, #contact-us #contact-us1 .right-section {
     height: 448px;
   }
 }
+
 @media screen and (max-width: 992px) {
   #contact-us #contact-us1 .left-section, #contact-us #contact-us1 .right-section {
     height: 346px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us1 .left-section, #contact-us #contact-us1 .right-section {
     height: auto;
     max-width: none;
   }
 }
+
 #contact-us #contact-us1 img {
   max-width: 100%;
   height: 100%;
 }
-#contact-us #contact-us1 .left-section .hovereffect > a {
+
+#contact-us #contact-us1 .left-section .hovereffect>a {
   display: block;
   overflow: hidden;
 }
-#contact-us #contact-us1 .left-section .hovereffect > a i {
+
+#contact-us #contact-us1 .left-section .hovereffect>a i {
   color: #ffffff;
   position: absolute;
   left: 15px;
   top: 15px;
   font-size: 24px;
 }
+
 @media screen and (max-width: 767px) {
-  #contact-us #contact-us1 .left-section .hovereffect > a i {
+  #contact-us #contact-us1 .left-section .hovereffect>a i {
     left: 30px;
   }
 }
+
 #contact-us #contact-us1 .left-section .hovereffect img {
   display: block;
   position: relative;
   width: 100%;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
 }
+
 #contact-us #contact-us1 .left-section .hovereffect img:hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay {
   width: 50%;
   height: 50%;
@@ -1922,8 +2238,9 @@ a:focus {
   bottom: 0;
   color: #ffffff;
   -webkit-transition: all linear 300ms;
-          transition: all linear 300ms;
+  transition: all linear 300ms;
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social {
   background: #3b5998;
   width: 100%;
@@ -1934,47 +2251,57 @@ a:focus {
   position: relative;
   padding: 20px 25px;
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .icon span {
   font-weight: 700;
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info {
   position: absolute;
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
 @media screen and (max-width: 992px) {
   #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info {
     width: 100%;
   }
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info p {
   color: #ffffff;
   margin-bottom: 30px;
   line-height: 24px;
 }
+
 @media screen and (max-width: 992px) {
   #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info p {
     display: none;
   }
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button {
   background: #2c4884;
   color: #ffffff;
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:before {
   background: #ffffff;
 }
+
 #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:hover, #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:focus, #contact-us #contact-us1 .left-section .hovereffect .overlay .social .info .button:active {
-  color: #202125;
+  color: #000000;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us1 .left-section .hovereffect .overlay {
     right: 15px;
   }
 }
+
 #contact-us #contact-us1 .right-section .social {
   background: #58bbff;
   display: block;
@@ -1984,27 +2311,32 @@ a:focus {
   position: relative;
   padding: 20px 25px;
 }
+
 #contact-us #contact-us1 .right-section .social .icon span {
   font-weight: 700;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us1 .right-section .social {
     height: 222px;
   }
 }
+
 #contact-us #contact-us1 .right-section .social .info {
   position: absolute;
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
 @media screen and (max-width: 992px) {
   #contact-us #contact-us1 .right-section .social .info {
     width: 100%;
   }
 }
+
 #contact-us #contact-us1 .right-section .social .info p {
   color: #ffffff;
   margin-bottom: 30px;
@@ -2012,26 +2344,32 @@ a:focus {
   margin-right: 5%;
   line-height: 24px;
 }
+
 @media screen and (max-width: 992px) {
   #contact-us #contact-us1 .right-section .social .info p {
     display: none;
   }
 }
+
 #contact-us #contact-us1 .right-section .social .info .button {
   background: #41a9f0;
   color: #ffffff;
 }
+
 #contact-us #contact-us1 .right-section .social .info .button:before {
   background: #ffffff;
 }
+
 #contact-us #contact-us1 .right-section .social .info .button:hover, #contact-us #contact-us1 .right-section .social .info .button:focus, #contact-us #contact-us1 .right-section .social .info .button:active {
-  color: #202125;
+  color: #000000;
 }
+
 #contact-us #contact-us1 .right-section .insta-2-3 {
   display: block;
   overflow: hidden;
   height: 50%;
 }
+
 #contact-us #contact-us1 .right-section .insta-2-3 i {
   position: absolute;
   color: #ffffff;
@@ -2039,39 +2377,47 @@ a:focus {
   bottom: 15px;
   font-size: 25px;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us1 .right-section .insta-2-3 i {
     left: 30px;
     top: 104%;
   }
 }
+
 #contact-us #contact-us1 .right-section .insta-2-3 .left, #contact-us #contact-us1 .right-section .insta-2-3 .right {
   width: 50%;
   overflow: hidden;
 }
+
 #contact-us #contact-us1 .right-section .insta-2-3 .left:hover img, #contact-us #contact-us1 .right-section .insta-2-3 .right:hover img {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
+
 #contact-us #contact-us1 .right-section .insta-2-3 img {
   width: 100%;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   overflow: hidden;
 }
+
 #contact-us #contact-us2 .left-section .vertical-heading {
   margin-bottom: 30px;
 }
+
 #contact-us #contact-us2 .left-section p {
   margin-bottom: 36px;
   line-height: 24px;
 }
+
 #contact-us #contact-us2 .left-section h4 {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   margin-bottom: 10px;
 }
+
 #contact-us #contact-us2 .left-section #countries ul li {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
@@ -2081,18 +2427,21 @@ a:focus {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-transition: all 400ms linear;
-          transition: all 400ms linear;
+  transition: all 400ms linear;
   margin-top: 12px;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 .left-section #countries ul li {
     margin-top: 25px;
   }
 }
+
 #contact-us #contact-us2 .left-section #countries ul li i {
   font-size: 20px;
   width: 50px;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 .left-section #countries ul li i {
     display: block;
@@ -2100,47 +2449,57 @@ a:focus {
     margin-bottom: 3px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 .left-section #countries ul li {
     display: block;
   }
 }
+
 #contact-us #contact-us2 .left-section #countries ul li:hover {
-  color: #f1c30f;
+  color: #004AAD;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 .left-section #countries ul.one {
     margin-bottom: 50px;
   }
 }
+
 #contact-us #contact-us2 .left-section .list-inline {
   margin-top: 40px;
 }
+
 #contact-us #contact-us2 .left-section .list-inline li a {
   border-color: #535353;
   color: #535353;
 }
+
 #contact-us #contact-us2 .left-section .list-inline li:nth-child(1) a:hover {
   background: #3b5998;
   border-color: transparent;
   color: #ffffff;
 }
+
 #contact-us #contact-us2 .left-section .list-inline li:nth-child(2) a:hover {
   background: #58bbff;
   border-color: transparent;
   color: #ffffff;
 }
+
 #contact-us #contact-us2 .left-section .list-inline li:nth-child(3) a:hover {
   background: -webkit-radial-gradient(33% 100%, circle, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
   background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
   border-color: transparent;
   color: #ffffff;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 .left-section {
     margin-bottom: 50px;
   }
 }
+
 #contact-us #contact-us2 .right-section {
   padding: 25px 30px;
   border: none;
@@ -2148,14 +2507,17 @@ a:focus {
   background: #ffffff;
   border-radius: 4px;
 }
+
 #contact-us #contact-us2 .right-section h4 {
   font-family: "Raleway", sans-serif;
   margin-bottom: 10px;
 }
+
 #contact-us #contact-us2 .right-section p {
   color: #535353;
   margin-bottom: 25px;
 }
+
 #contact-us #contact-us2 .right-section form .form-control {
   padding: 13px 15px;
   line-height: 24px;
@@ -2163,21 +2525,26 @@ a:focus {
   color: #aaaaaa;
   border-color: #cbcbcb;
 }
+
 #contact-us #contact-us2 .right-section form textarea.form-control {
   min-height: 164px;
 }
+
 #contact-us #contact-us2 .right-section form .button {
-  background: #202125;
+  background: #000000;
   color: #ffffff;
 }
+
 #contact-us #contact-us2 .right-section form .button:before {
-  background: #f1c30f;
+  background: #004AAD;
 }
+
 @media screen and (max-width: 767px) {
   #contact-us #contact-us2 {
     text-align: center;
   }
 }
+
 #contact-us #map {
   display: block;
   width: 100%;
@@ -2187,13 +2554,15 @@ a:focus {
 /* contact-us styling end */
 /* footer styling start */
 footer {
-  background: #202125;
+  background: #000000;
   padding: 20px;
 }
+
 footer p {
   line-height: 20px;
   color: #a0a0a0;
 }
+
 footer p span {
   color: #ffffff;
 }
@@ -2203,34 +2572,41 @@ footer p span {
 #news-page {
   background: #f5f5f5;
 }
+
 #news-page .padding-blog-right {
   padding-right: 80px;
 }
+
 @media screen and (max-width: 992px) {
   #news-page .padding-blog-right {
     padding-right: 75px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #news-page .padding-blog-right {
     padding-right: 15px;
   }
 }
+
 #news-page .padding-blog-left {
   padding-left: 80px;
   top: 50px;
 }
+
 @media screen and (max-width: 992px) {
   #news-page .padding-blog-left {
     padding-left: 75px;
   }
 }
+
 @media screen and (max-width: 767px) {
   #news-page .padding-blog-left {
     top: 0;
     padding-left: 15px;
   }
 }
+
 #news-page #news #blog-container:before {
   top: 0;
   bottom: 0;
@@ -2241,19 +2617,24 @@ footer p span {
   left: 50%;
   margin-left: -1.5px;
 }
+
 #news-page #news #blog-container .blog-section {
   margin-bottom: 50px;
 }
+
 #news-page #news #blog-container .blog-section:last-child {
   margin-bottom: 0;
 }
+
 #news-page #news #blog-container .timeline-badge {
   position: absolute;
   top: 50px;
 }
+
 #news-page #news #blog-container .timeline-badge a {
-  color: #f1c30f;
+  color: #004AAD;
 }
+
 #news-page #news #blog-container .timeline-badge:before {
   display: block;
   top: 8px;
@@ -2262,35 +2643,44 @@ footer p span {
   border-bottom: 4px dotted #c1c1c1;
   width: 28px;
 }
+
 @media screen and (max-width: 767px) {
   #news-page #news #blog-container .timeline-badge {
     display: none;
   }
 }
+
 #news-page #news #blog-container .left-section .timeline-badge {
   left: 98.85%;
 }
+
 #news-page #news #blog-container .left-section .timeline-badge:before {
   left: -35px;
 }
+
 #news-page #news #blog-container .right-section .timeline-badge {
   right: 98.85%;
 }
+
 #news-page #news #blog-container .right-section .timeline-badge:before {
   right: -35px;
 }
+
 #news-page #news #blog-container .padding-blog-left:last-child .blog-section {
   margin-bottom: 0;
 }
+
 #news-page #news .load-more {
   margin-top: 50px;
 }
+
 #news-page #news .load-more .button {
-  background: #f1c30f;
+  background: #004AAD;
   color: #ffffff;
 }
+
 #news-page #news .load-more .button:before {
-  background: #202125;
+  background: #000000;
 }
 
 /* news page styling end */
@@ -2298,131 +2688,161 @@ footer p span {
 #news--detail-page {
   background: #f5f5f5;
 }
+
 #news--detail-page p {
   line-height: 24px;
 }
+
 #news--detail-page #post #post-content {
   background: #ffffff;
   padding: 30px 25px;
 }
+
 #news--detail-page #post #post-content #top-content h4 {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   margin-bottom: 15px;
 }
+
 #news--detail-page #post #post-content #top-content p {
   margin-bottom: 50px;
 }
+
 #news--detail-page #post #post-content #blog-quote {
   background: #f5f5f5;
   padding: 30px;
   margin-bottom: 50px;
-  border-left: 5px solid #f1c30f;
+  border-left: 5px solid #004AAD;
 }
+
 #news--detail-page #post #post-content #blog-quote p {
   font-size: 18px;
   font-style: italic;
 }
+
 @media screen and (max-width: 767px) {
   #news--detail-page #post #post-content #blog-quote p {
     font-size: 14px;
   }
 }
+
 #news--detail-page #post #post-content .point-list {
   margin-bottom: 50px;
 }
+
 #news--detail-page #post #post-content .point-list ul {
   list-style: circle inside;
 }
+
 #news--detail-page #post #post-content .point-list ul li {
   font-size: 13px;
   line-height: 38px;
 }
+
 #news--detail-page #post .post-footer {
   margin-bottom: 50px;
   padding: 10px 25px;
   background: #ffffff;
   border-top: 4px solid #f5f5f5;
 }
+
 #news--detail-page #post .post-footer p {
   line-height: 35px;
   font-size: 12px;
   font-family: "Raleway", sans-serif;
-  color: #f1c30f;
+  color: #004AAD;
 }
+
 #news--detail-page #post .post-footer ul li a {
   color: #ffffff;
 }
+
 #news--detail-page #post .post-footer ul li:nth-child(1) a {
   background: #204385;
 }
+
 #news--detail-page #post .post-footer ul li:nth-child(2) a {
   background: #2aa9e0;
 }
+
 #news--detail-page #post .post-footer ul li:nth-child(3) a {
   background: #0c6c9e;
 }
+
 #news--detail-page #blogger .blogger-data img {
   width: 100%;
 }
+
 @media screen and (min-width: 993px) {
   #news--detail-page #blogger .blogger-data .leftcolpad {
     padding-right: 0;
   }
 }
+
 @media screen and (min-width: 993px) {
   #news--detail-page #blogger .blogger-data .rightcolpad {
     padding-left: 0;
   }
+
   #news--detail-page #blogger .blogger-data .rightcolpad .setting {
     margin-left: 10px;
   }
 }
+
 #news--detail-page #blogger .blogger-data #blogger-info {
   background: #ffffff;
   position: relative;
   padding: 30px 15px;
 }
+
 #news--detail-page #blogger .blogger-data #blogger-info h4 {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   line-height: normal;
   margin-bottom: 5px;
 }
+
 #news--detail-page #blogger .blogger-data #blogger-info p:nth-child(2) {
-  color: #f1c30f;
+  color: #004AAD;
   font-size: 12px;
   margin-bottom: 5px;
 }
+
 #news--detail-page #blogger .blogger-data #blogger-info p:nth-child(3) {
   line-height: 30px;
   margin-bottom: 5px;
 }
+
 @media screen and (min-width: 993px) {
   #news--detail-page #blogger .blogger-data #blogger-info {
     height: 243.578px;
   }
+
   #news--detail-page #blogger .blogger-data #blogger-info .setting {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }
+
 @media screen and (min-width: 1200px) {
   #news--detail-page #blogger .blogger-data #blogger-info {
     height: 234.531px;
   }
 }
+
 #news--detail-page form {
   background: #ffffff;
   padding: 30px;
   margin-top: 60px;
 }
+
 #news--detail-page form h4 {
   margin-bottom: 15px;
 }
+
 #news--detail-page form .form-control {
   padding: 13px 15px;
   line-height: 24px;
@@ -2430,15 +2850,18 @@ footer p span {
   color: #aaaaaa;
   border-color: #cbcbcb;
 }
+
 #news--detail-page form textarea.form-control {
   min-height: 300px;
 }
+
 #news--detail-page form .button {
-  background: #f1c30f;
+  background: #004AAD;
   color: #ffffff;
 }
+
 #news--detail-page form .button:before {
-  background: #202125;
+  background: #000000;
 }
 
 /* news detail page styling end */
