@@ -2554,7 +2554,7 @@ a:focus {
 /* contact-us styling end */
 /* footer styling start */
 footer {
-  background: #000000;
+  background: linear-gradient(#07058c, #68C269);
   padding: 20px;
 }
 
